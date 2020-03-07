@@ -28,7 +28,7 @@
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2020-03-06T00:26:06.409Z">
-<meta property="article:modified_time" content="2020-03-07T17:37:11.099Z">
+<meta property="article:modified_time" content="2020-03-07T19:38:14.478Z">
 <meta property="article:author" content="Ivey">
 <meta property="article:tag" content="Deault">
 <meta name="twitter:card" content="summary">
@@ -191,7 +191,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-03-08 01:37:11" itemprop="dateModified" datetime="2020-03-08T01:37:11+08:00">2020-03-08</time>
+                <time title="修改時間：2020-03-08 03:38:14" itemprop="dateModified" datetime="2020-03-08T03:38:14+08:00">2020-03-08</time>
               </span>
 
           
@@ -218,6 +218,565 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<table>
+<thead>
+<tr>
+<th>標籤</th>
+<th>定義</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;font color=&quot;#dd0000&quot;&gt;&lt;!--...--&gt;&lt;/font&gt;</code></a></td>
+<td>註釋</td>
+<td>會被瀏覽器忽略</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;!DOCTYPE&gt;</code></a></td>
+<td>文檔類型</td>
+<td>告知瀏覽器文檔所使用的 HTML 規範</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;a&gt;</code></a></td>
+<td>超鏈結</td>
+<td>透過href 屬性，指定點擊前往的網頁</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;abbr&gt;</code></a></td>
+<td>縮寫</td>
+<td>通過對縮寫詞語進行標記，能夠為瀏覽器、拚寫檢查程序、翻譯系統以及搜索引擎分度器提供有用的信息</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;address&gt;</code></a></td>
+<td>地址</td>
+<td>文檔作者或擁有者的聯絡訊息</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;area&gt;</code></a></td>
+<td>圖像映射中的區域</td>
+<td>定義圖像映射內部的區域（圖像映射指的是帶有可點擊區域的圖像）</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;b&gt;</code></a></td>
+<td>粗體</td>
+<td>用於強調，並表現粗體效果</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;base&gt;</code></a></td>
+<td>頁面中所有鏈結的基準 URL</td>
+<td>為頁面上的所有鏈結規定默認地址或默認目標</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;bdo&gt;</code></a></td>
+<td>文本顯示的方向</td>
+<td>標簽覆蓋默認的文本方向</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;blockquote&gt;</code></a></td>
+<td>長的引用</td>
+<td>定義摘自一段說明所使用的引用區塊</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;body&gt;</code></a></td>
+<td>文檔的主體</td>
+<td>文檔包含的所有內容</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;br&gt;</code></a></td>
+<td>換行符</td>
+<td>插入換行符</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;button&gt;</code></a></td>
+<td>按鈕</td>
+<td>定義按鈕，也可以在該元素內放置內容，比如文本或圖像</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;caption&gt;</code></a></td>
+<td>表格標題</td>
+<td>定義表格的標題，每個表格只能規定一個標題</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;cite&gt;</code></a></td>
+<td>引用</td>
+<td>對參考文獻的引用進行定義</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;code&gt;</code></a></td>
+<td>程式碼</td>
+<td>表現出電腦程式碼的片段</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;col&gt;</code></a></td>
+<td>表格列的屬性</td>
+<td>為表格中的一個或多個列定義屬性值</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;colgroup&gt;</code></a></td>
+<td>表格列的分組</td>
+<td>用於對表格中的列進行組合，以便對其進行格式化</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;dd&gt;</code></a></td>
+<td>定義的描述</td>
+<td>定義一個定義列表中對項目的描述</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;del&gt;</code></a></td>
+<td>刪除字段</td>
+<td>定義文檔中已刪除的字段</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;dfn&gt;</code></a></td>
+<td>定義項目</td>
+<td>定義一個定義項目</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;div&gt;</code></a></td>
+<td>文檔中的一個部分</td>
+<td>常用於組合塊級元素，以便通過樣式表來對這些元素進行格式化</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;dl&gt;</code></a></td>
+<td>定義列表</td>
+<td>用於結合 <dt> （定義列表中的項目）和 <dd> （描述列表中的項目）</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;dt&gt;</code></a></td>
+<td>定義的項目</td>
+<td>定義列表中的項目</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;em&gt;</code></a></td>
+<td>強調文本</td>
+<td>呈現為被強調的文本</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;fieldset&gt;</code></a></td>
+<td>元素組合</td>
+<td>用於從邏輯上將表單中的元素組合起來，會在相關表單元素周圍繪製邊框</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;form&gt;</code></a></td>
+<td>表單</td>
+<td>用於創建供用戶輸入的 HTML 表單</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;h1&gt; to &lt;h6&gt;</code></a></td>
+<td>定義標題 1 到標題 6</td>
+<td><h1> 定義最大的標題。<h6> 定義最小的標題</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;head&gt;</code></a></td>
+<td>關於文檔的信息</td>
+<td>可以包含腳本、指引瀏覽器找到樣式表、提供元信息</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;hr&gt;</code></a></td>
+<td>水平線</td>
+<td>插入水平線</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;html&gt;</code></a></td>
+<td>宣告檔案類型</td>
+<td>告知瀏覽器這是一個 HTML 文檔</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;i&gt;</code></a></td>
+<td>斜體</td>
+<td>呈現斜體的文本</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;iframe&gt;</code></a></td>
+<td>行內的子窗口（框架)</td>
+<td>創建包含另一個文檔的行內框架</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;img&gt;</code></a></td>
+<td>圖像</td>
+<td>定義 HTML 頁面中的圖像</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;input&gt;</code></a></td>
+<td>輸入控制元件</td>
+<td>根據不同的Type屬性，輸入元件有多種形態</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;ins&gt;</code></a></td>
+<td>插入文本</td>
+<td>定義文檔的其餘部分之外的插入文本</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;kbd&gt;</code></a></td>
+<td>鍵盤文本</td>
+<td>表示文本是從鍵盤上鍵入的</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;label&gt;</code></a></td>
+<td>表單控制元件的標註</td>
+<td>為 input 元素定義標簽（label）</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;legend&gt;</code></a></td>
+<td>定義標題</td>
+<td>legend 元素為以下元素定義標題（caption）：<fieldset>、<figure>、<details>。</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;li&gt;</code></a></td>
+<td>列表的項目</td>
+<td>定義列表項</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;link&gt;</code></a></td>
+<td>資源引用</td>
+<td>定義文檔與外部資源之間的關係</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;map&gt;</code></a></td>
+<td>圖像映射</td>
+<td>用於定義客戶端圖像映射。(圖像映射指的是帶有可點擊區域的圖像)</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;menu&gt;</code></a></td>
+<td>菜單列表</td>
+<td>定義菜單列表</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;meta&gt;</code></a></td>
+<td>元信息</td>
+<td>可提供有關頁面的元信息（meta-information），比如針對搜索引擎和更新頻度的描述和關鍵詞</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;noscript&gt;</code></a></td>
+<td>腳本未被執行時的替代內容</td>
+<td>用來定義在腳本未被執行時的替代內容（文本）</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;object&gt;</code></a></td>
+<td>嵌入對象</td>
+<td>定義一個嵌入的對象。請使用此元素向您的 XHTML 頁麵添加多媒體。此元素運行您規定插入 HTML 文檔中的對象的數據和參數，以及可用來顯示和操作數據的代碼</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;ol&gt;</code></a></td>
+<td>有序列表</td>
+<td>定義有序列表</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+</tbody></table>
+<p>HTML5 新標籤</p>
+<table>
+<thead>
+<tr>
+<th>標籤</th>
+<th>定義</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;article&gt;</code></a></td>
+<td>獨立的內容</td>
+<td>表示文檔、頁面、應用或網站中的獨立結構</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;aside&gt;</code></a></td>
+<td>頁面內容之外的內容</td>
+<td>表示一個和其餘頁面內容幾乎無關的部分，被認為是獨立於該內容的一部分並且可以被單獨的拆分出來而不會使整體受影響</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;audio&gt;</code></a></td>
+<td>聲音內容</td>
+<td>定義聲音，比如音樂或其他音頻流</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;bdi&gt;</code></a></td>
+<td>隔離</td>
+<td>設置一段文本，使其脫離其父元素的文本方向設置</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;canvas&gt;</code></a></td>
+<td>圖形</td>
+<td>只是圖形容器，仍然必須使用腳本來繪製圖形</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;command&gt;</code></a></td>
+<td>命令按鈕</td>
+<td>表示用戶能夠調用的命令</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;datalist&gt;</code></a></td>
+<td>下拉列表</td>
+<td>定義選項列表。請與 input 元素配合使用該元素，來定義 input 可能的值</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;details&gt;</code></a></td>
+<td>元素的細節</td>
+<td>用於描述文檔或文檔某個部分的細節</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;embed&gt;</code></a></td>
+<td>外部交互內容或插件</td>
+<td>定義嵌入的內容，比如插件</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;figcaption&gt;</code></a></td>
+<td>figure標題</td>
+<td>定義 figure 元素的標題</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;figure&gt;</code></a></td>
+<td>媒介內容的分組，以及它們的標題</td>
+<td>規定獨立的流內容（圖像、圖表、照片、代碼等等）</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;footer&gt;</code></a></td>
+<td>頁尾</td>
+<td>定義 section 或 page 的頁尾</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;header&gt;</code></a></td>
+<td>頁首</td>
+<td>定義 section 或 page 的頁首</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;hgroup&gt;</code></a></td>
+<td>有關文檔中的 section 的信息</td>
+<td>用於對網頁或區段（section）的標題進行組合</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;keygen&gt;</code></a></td>
+<td>表單密鑰</td>
+<td>用於表單的密鑰對生成器字段</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;mark&gt;</code></a></td>
+<td>有記號的文本</td>
+<td>定義帶有記號的文本</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;meter&gt;</code></a></td>
+<td>預定義範圍內的度量</td>
+<td>定義度量衡。僅用於已知最大和最小值的度量</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;nav&gt;</code></a></td>
+<td>導覽列</td>
+<td>定義導覽鏈結的部分</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+</tbody></table>
+<p>HTML 5 已不支持</p>
+<table>
+<thead>
+<tr>
+<th>標籤</th>
+<th>定義</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;acronym&gt;</code></a></td>
+<td>首字母縮寫</td>
+<td>通過對只取首字母縮寫進行標記，能夠為瀏覽器、拚寫檢查程序、翻譯系統以及搜索引擎分度器提供有用的信息</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;applet&gt;</code></a></td>
+<td>applet</td>
+<td>包含了Java嵌入式的 applet</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;basefont&gt;</code></a></td>
+<td>文本的默認樣式</td>
+<td>定義所有文本的默認顏色、大小和字體</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;big&gt;</code></a></td>
+<td>大號字體效果</td>
+<td>其字體比周圍的文字要大一號</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;center&gt;</code></a></td>
+<td>水平置中</td>
+<td>對其包圍的文本和內容進行水平置中處理</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;dir&gt;</code></a></td>
+<td>目錄列表</td>
+<td>定義目錄列表的範圍</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;font&gt;</code></a></td>
+<td>文字設定</td>
+<td>定義了該內容的字體大小、顏色與表現</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;frame&gt;</code></a></td>
+<td>子窗口（框架）</td>
+<td>可以在其中顯示另一個HTML文檔的特定區域</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;frameset&gt;</code></a></td>
+<td>框架的集</td>
+<td>用以包含 <frame> 的元素</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;isindex&gt;</code></a></td>
+<td>提示輸入單行</td>
+<td>使瀏覽器顯示一個對話框，提示用戶輸入單行文本</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;noframes&gt;</code></a></td>
+<td>無法處理框架的提示文本</td>
+<td>瀏覽器顯示無法處理框架的提示文本</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+<tr>
+<td><a href="https://hexo.io" target="_blank" rel="noopener"><code>&lt;&gt;</code></a></td>
+<td>—-</td>
+<td>—-</td>
+</tr>
+</tbody></table>
 
     </div>
 
@@ -292,7 +851,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#null"><span class="nav-number"></span> <span class="nav-text"> 定義最大的標題。 定義最小的標題</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#null"><span class="nav-number">0.0.0.0.1.</span> <span class="nav-text"> 定義最小的標題</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
