@@ -1,24 +1,12 @@
-h1           
+#h1Style           
 { 
-color: green;
-border: 1pt solid black;
+    color: green;
+    border: 1pt solid black;
 }
 
-p
+#pStyle
 {
-color: red;
-background-color:#EFE7D6;
-border: 1pt solid black;
-}
-
-div
-{
-color: #FFFFFF;
-background-color:#000000;
-}
-
-span
-{
-color: #000000;
-background-color:#FFFFFF;
+    color: red;
+    background-color:#EFE7D6;
+    border: 1pt solid black;
 }
