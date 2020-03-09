@@ -1,12 +1,12 @@
 #h1Style           
 { 
-    color: green;
+    color: #00B39C;
     border: 1pt solid black;
 }
 
 #pStyle
 {
     color: red;
-    background-color:#EFE7D6;
+    background-color:#57DADC;
     border: 1pt solid black;
 }
