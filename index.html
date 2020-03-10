@@ -183,7 +183,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-03-11 04:10:15" itemprop="dateModified" datetime="2020-03-11T04:10:15+08:00">2020-03-11</time>
+                <time title="修改時間：2020-03-11 04:31:25" itemprop="dateModified" datetime="2020-03-11T04:31:25+08:00">2020-03-11</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -211,16 +211,17 @@
 <h2 id="HTML是什麼？"><a href="#HTML是什麼？" class="headerlink" title="HTML是什麼？"></a>HTML是什麼？</h2><p>HTML是 Hyper Text Markup Language的首字縮寫，中文為超文本標記語言。</p>
 <p>提到HTML就不得不提網頁瀏覽器，網頁瀏覽器的種類很多，最常見的就是Google Chrome，然後還有Internet Explorer，這些瀏覽器讀取HTML的文本，根據HTML的標籤，將其中的文字、圖片、影片等等，排列組合後，呈現可視覺化的網頁。</p>
 <p>所以HTML是給瀏覽器看的，區域應該多寬多長，文字要多大多小，瀏覽器會從上而下的讀取文本，並決定要呈現什麼出來，基本上網頁瀏覽器都支援HTML，因為HTML是網頁的標準標記語言。</p>
+<p>瀏覽器在解析HTML有自己的容錯處理機制，無效的內容會糾正或不顯示，所以有時缺少標籤時，仍然可以正常顯示畫面</p>
 <h2 id="HTML-文件的架構"><a href="#HTML-文件的架構" class="headerlink" title="HTML 文件的架構"></a>HTML 文件的架構</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">"utf-8"</span>&gt;</span><br><span class="line">    &lt;title&gt;我的標題&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    </span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 <ul>
     <li>
         <code>&lt;!DOCTYPE&gt;</code>- 為了讓瀏覽器知道這個頁面的文件類型是什麼，瀏覽器根據該標籤來決定要怎麼支援顯示出來的畫面，如果沒有宣告的時候，大部份的瀏覽器會以它們自訂的默認的 DOCTYPE 解釋該頁的 HTML，有可能會出現使用者看到的畫面不完全相同的狀況
-        <code>&lt;html&gt;&lt;/html&gt;</code>-除了宣告用的<code>&lt;!DOCTYPE&gt;</code>，所有要顯示的內容都要放在這個標籤的範圍內，它又被稱為根元素(root element)
-        <code>&lt;head&gt;&lt;/head&gt;</code>-這裡是要放置<b>不顯示於畫面上的預存資訊</b>，像是引用的樣式文件、搜尋結果的關鍵字、頁面說明。
-        <code>&lt;body&gt;&lt;/body&gt;</code>-這裡是要放置<b>顯示於畫面上的內容</b>，像是文字、圖片、影片。
-        <code>&lt;meta charset="utf-8"&gt;</code>-指定你的網頁文件要使用的字元編碼。
-        <code>&lt;title&gt;&lt;/title&gt;</code>-呈現於網頁瀏覽者眼前的網頁標題
     </li>
+    <li><code>&lt;html&gt;&lt;/html&gt;</code>-除了宣告用的<code>&lt;!DOCTYPE&gt;</code>，所有要顯示的內容都要放在這個標籤的範圍內，它又被稱為根元素(root element)</li>
+    <li><code>&lt;head&gt;&lt;/head&gt;</code>-這裡是要放置<b>不顯示於畫面上的預存資訊</b>，像是引用的樣式文件、搜尋結果的關鍵字、頁面說明。</li>
+    <li>  <code>&lt;body&gt;&lt;/body&gt;</code>-這裡是要放置<b>顯示於畫面上的內容</b>，像是文字、圖片、影片。</li>
+    <li> <code>&lt;meta charset="utf-8"&gt;</code>-指定你的網頁文件要使用的字元編碼。</li>
+    <li><code>&lt;title&gt;&lt;/title&gt;</code>-呈現於網頁瀏覽者眼前的網頁標題</li>
 </ul>
 
 <h2 id="HTML-元素的組成"><a href="#HTML-元素的組成" class="headerlink" title="HTML 元素的組成"></a>HTML 元素的組成</h2><p>在看HTML文件的架構的時候，會發現有一些元素只有一個標籤，有一些元素卻有成對的標籤，還有標籤包著標籤的狀況</p>
@@ -234,7 +235,7 @@
 <h3 id="巢狀元素"><a href="#巢狀元素" class="headerlink" title="巢狀元素"></a>巢狀元素</h3><p>部份元素與一般元素的可以放入其他標籤的狀況不同，它們只能放入特定的標籤，例如：<code>&lt;ul&gt;</code>、<code>&lt;ol&gt;</code></p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;ul&gt;</span><br><span class="line">  &lt;li&gt;Pariatur&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;veniam&lt;/li&gt;</span><br><span class="line">  &lt;li&gt;nisi&lt;/li&gt;</span><br><span class="line">&lt;/ul&gt;</span><br></pre></td></tr></table></figure>
 
-
+<h2 id="結語"><a href="#結語" class="headerlink" title="結語"></a>結語</h2>
       
     </div>
 
