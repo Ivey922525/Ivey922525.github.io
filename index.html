@@ -183,7 +183,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-03-11 05:53:15" itemprop="dateModified" datetime="2020-03-11T05:53:15+08:00">2020-03-11</time>
+                <time title="修改時間：2020-03-11 06:01:46" itemprop="dateModified" datetime="2020-03-11T06:01:46+08:00">2020-03-11</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -210,7 +210,8 @@
 
 <p>在閱讀的過程中，最重要的莫過於文字的顯示，本章將會介紹HTML標籤中，專門拿來標記文字，做出放大縮小等等效果</p>
 <p>但其實這些效果主要還是要看當前使用的瀏覽器的預設樣式，不同瀏覽器對HTML的標籤都有不同的定義。</p>
-<h2 id="粗體"><a href="#粗體" class="headerlink" title="粗體"></a>粗體</h2><h3 id="lt-b-gt-這是一般的粗體，沒有其他特別的意思。"><a href="#lt-b-gt-這是一般的粗體，沒有其他特別的意思。" class="headerlink" title="&lt;b&gt; 這是一般的粗體，沒有其他特別的意思。"></a><code>&lt;b&gt;</code> 這是一般的粗體，沒有其他特別的意思。</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">        &lt;b&gt;Sunt&lt;/b&gt; cupidatat ullamco sint et proident &lt;b&gt;consequat&lt;/b&gt; sit voluptate aliqua voluptate.</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="粗體"><a href="#粗體" class="headerlink" title="粗體"></a>粗體</h2><h3 id="lt-b-gt"><a href="#lt-b-gt" class="headerlink" title="&lt;b&gt;"></a><code>&lt;b&gt;</code></h3><p>顯示粗體</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">        &lt;b&gt;Sunt&lt;/b&gt; cupidatat ullamco sint et proident &lt;b&gt;consequat&lt;/b&gt; sit voluptate aliqua voluptate.</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
     <tr>
@@ -227,7 +228,60 @@
     </tr>
 </table>
 
-<h2 id="展示縮寫"><a href="#展示縮寫" class="headerlink" title="展示縮寫"></a>展示縮寫</h2><h3 id="lt-abbr-gt"><a href="#lt-abbr-gt" class="headerlink" title="&lt;abbr&gt;"></a><code>&lt;abbr&gt;</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">       &lt;p&gt;use &lt;abbr title=<span class="string">"Hyper Text Markup Language"</span>&gt;HTML&lt;/abbr&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="鈄線"><a href="#鈄線" class="headerlink" title="鈄線"></a>鈄線</h2><h3 id="lt-em-gt"><a href="#lt-em-gt" class="headerlink" title="&lt;em&gt;"></a><code>&lt;em&gt;</code></h3><p>被強調的文本，能夠為瀏覽器、拚寫檢查程序、翻譯系統以及搜索引擎分度器提供有用的信息</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">       &lt;em&gt;Ea veniam aute fugiat aliquip esse ex irure dolor.&lt;/em&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<table>
+    <tr>
+        <th>輸出</th>
+    </tr>
+    <tr>
+        <td>
+          <html>
+                <body>
+                  <em>Ea veniam aute fugiat aliquip esse ex irure dolor.</em>
+                </body>
+            </html>
+        </td>
+    </tr>
+</table>
+
+<h3 id="lt-dfn-gt"><a href="#lt-dfn-gt" class="headerlink" title="&lt;dfn&gt;"></a><code>&lt;dfn&gt;</code></h3><p>定義術語/專業行話</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">       &lt;dfn&gt;PM&lt;/dfn&gt;：Project Manager的簡稱，又稱專案經理</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<table>
+    <tr>
+        <th>輸出</th>
+    </tr>
+    <tr>
+        <td>
+          <html>
+                <body>
+                    <dfn>PM</dfn>：Project Manager的簡稱，又稱專案經理
+                </body>
+            </html>
+        </td>
+    </tr>
+</table>
+
+
+<h2 id="刪除線"><a href="#刪除線" class="headerlink" title="刪除線"></a>刪除線</h2><h3 id="lt-del-gt"><a href="#lt-del-gt" class="headerlink" title="&lt;del&gt;"></a><code>&lt;del&gt;</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">       &lt;del&gt;Sit ex pariatur &lt;/del&gt; cupidatat sunt officia Lorem anim culpa commodo.</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<table>
+    <tr>
+        <th>輸出</th>
+    </tr>
+    <tr>
+        <td>
+          <html>
+                <body>
+                    <del>Sit ex pariatur </del> cupidatat sunt officia Lorem anim culpa commodo.
+                </body>
+            </html>
+        </td>
+    </tr>
+</table>
+
+
+<h2 id="展示縮寫"><a href="#展示縮寫" class="headerlink" title="展示縮寫"></a>展示縮寫</h2><h3 id="lt-abbr-gt"><a href="#lt-abbr-gt" class="headerlink" title="&lt;abbr&gt;"></a><code>&lt;abbr&gt;</code></h3><p>通過對縮寫詞語進行標記，能夠為瀏覽器、拚寫檢查程序、翻譯系統以及搜索引擎分度器提供有用的信息</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">       &lt;p&gt;use &lt;abbr title=<span class="string">"Hyper Text Markup Language"</span>&gt;HTML&lt;/abbr&gt;.&lt;/p&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 
 <table>
     <tr>
@@ -245,6 +299,22 @@
     </tr>
 </table>
 
+<h2 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h2><h3 id="lt-code-gt"><a href="#lt-code-gt" class="headerlink" title="&lt;code&gt;"></a><code>&lt;code&gt;</code></h3><p>表現出電腦程式碼的片段</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">       &lt;p&gt;The &lt;code&gt; push()&lt;/code&gt; Labore labore et cupidatat occaecat.&lt;/p&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<table>
+    <tr>
+        <th>輸出</th>
+    </tr>
+    <tr>
+        <td>
+          <html>
+                <body>
+                    <p>The <code>push()</code> Labore labore et cupidatat occaecat.</p>
+                </body>
+            </html>
+        </td>
+    </tr>
+</table>
       
     </div>
 
