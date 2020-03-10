@@ -20,15 +20,15 @@
     var CONFIG = {"hostname":"yoursite.com","root":"/","scheme":"Gemini","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="這個章節會講解HTML的基礎標籤 &lt;!DOCTYPE&gt;">
+  <meta name="description" content="這個章節會講解HTML的基礎標籤 12345678910&lt;!DOCTYPE html&gt;&lt;html&gt;  &lt;head&gt;    &lt;meta charset&#x3D;&quot;utf-8&quot;&gt;    &lt;title&gt;我的標題&lt;&#x2F;title&gt;  &lt;&#x2F;head&gt;  &lt;body&gt;      &lt;&#x2F;body&gt;&lt;&#x2F;html&amp;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HTML-基礎">
 <meta property="og:url" content="http://yoursite.com/2020/03/11/HTML-3-BasicHTML/index.html">
 <meta property="og:site_name" content="Ivey">
-<meta property="og:description" content="這個章節會講解HTML的基礎標籤 &lt;!DOCTYPE&gt;">
+<meta property="og:description" content="這個章節會講解HTML的基礎標籤 12345678910&lt;!DOCTYPE html&gt;&lt;html&gt;  &lt;head&gt;    &lt;meta charset&#x3D;&quot;utf-8&quot;&gt;    &lt;title&gt;我的標題&lt;&#x2F;title&gt;  &lt;&#x2F;head&gt;  &lt;body&gt;      &lt;&#x2F;body&gt;&lt;&#x2F;html&amp;">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2020-03-10T18:17:51.000Z">
-<meta property="article:modified_time" content="2020-03-10T18:29:51.087Z">
+<meta property="article:modified_time" content="2020-03-10T19:18:30.313Z">
 <meta property="article:author" content="Ivey">
 <meta property="article:tag" content="HTML">
 <meta name="twitter:card" content="summary">
@@ -180,7 +180,7 @@
               <span class="post-meta-item-text">發表於</span>
               
 
-              <time title="創建時間：2020-03-11 02:17:51 / 修改時間：02:29:51" itemprop="dateCreated datePublished" datetime="2020-03-11T02:17:51+08:00">2020-03-11</time>
+              <time title="創建時間：2020-03-11 02:17:51 / 修改時間：03:18:30" itemprop="dateCreated datePublished" datetime="2020-03-11T02:17:51+08:00">2020-03-11</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -204,7 +204,20 @@
 
       
         <p>這個章節會講解HTML的基礎標籤</p>
-<h3><code>&lt;!DOCTYPE&gt;</code></h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">    &lt;meta charset=<span class="string">"utf-8"</span>&gt;</span><br><span class="line">    &lt;title&gt;我的標題&lt;/title&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">  &lt;body&gt;</span><br><span class="line">    </span><br><span class="line">  &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<ul>
+    <li>
+        <code>&lt;!DOCTYPE&gt;</code>- 為了讓瀏覽器知道這個頁面的文件類型是什麼，瀏覽器根據該標籤來決定要怎麼支援顯示出來的畫面，如果沒有宣告的時候，大部份的瀏覽器會以它們自訂的默認的 DOCTYPE 解釋該頁的 HTML，有可能會出現使用者看到的畫面不完全相同的狀況
+        <code>&lt;html&gt;&lt;/html&gt;</code>-除了宣告用的<code>&lt;!DOCTYPE&gt;</code>，所有要顯示的內容都要放在這個標籤的範圍內，它又被稱為根元素(root element)
+        <code>&lt;head&gt;&lt;/head&gt;</code>-這裡是要放置<b>不顯示於畫面上的預存資訊</b>，像是引用的樣式文件、搜尋結果的關鍵字、頁面說明。
+        <code>&lt;body&gt;&lt;/body&gt;</code>-這裡是要放置<b>顯示於畫面上的內容</b>，像是文字、圖片、影片。
+        <code>&lt;meta charset="utf-8"&gt;</code>-指定你的網頁文件要使用的字元編碼。
+        <code>&lt;title&gt;&lt;/title&gt;</code>-呈現於網頁瀏覽者眼前的網頁標題
+    </li>
+
+</ul>
+
+
     </div>
 
     
@@ -278,7 +291,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#null"><span class="nav-number">1.</span> <span class="nav-text">&lt;!DOCTYPE&gt;</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
