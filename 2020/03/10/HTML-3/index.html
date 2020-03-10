@@ -29,7 +29,7 @@
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://images.unsplash.com/reserve/uZYSV4nuQeyq64azfVIn_15130980706_64134efc6e_o.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80">
 <meta property="article:published_time" content="2020-03-10T13:12:11.000Z">
-<meta property="article:modified_time" content="2020-03-10T22:08:48.650Z">
+<meta property="article:modified_time" content="2020-03-10T22:24:08.261Z">
 <meta property="article:author" content="Ivey">
 <meta property="article:tag" content="HTML">
 <meta name="twitter:card" content="summary">
@@ -188,7 +188,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-03-11 06:08:48" itemprop="dateModified" datetime="2020-03-11T06:08:48+08:00">2020-03-11</time>
+                <time title="修改時間：2020-03-11 06:24:08" itemprop="dateModified" datetime="2020-03-11T06:24:08+08:00">2020-03-11</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -337,6 +337,45 @@
     </tr>
 </table>
 
+<h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><h4 id="lt-q-gt"><a href="#lt-q-gt" class="headerlink" title="&lt;q&gt;"></a><code>&lt;q&gt;</code></h4><p>短的引用，在兩側加入雙引號</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">       Lorem ad &lt;q&gt;esse&lt;/q&gt; eiusmod commodo duis ea.</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+
+<table>
+    <tr>
+        <th>輸出</th>
+    </tr>
+    <tr>
+        <td>
+          <html>
+                <body>
+                  Lorem ad <q>esse</q> eiusmod commodo duis ea.
+                </body>
+            </html>
+        </td>
+    </tr>
+</table>
+
+<h4 id="lt-blockquote-gt"><a href="#lt-blockquote-gt" class="headerlink" title="&lt;blockquote&gt;"></a><code>&lt;blockquote&gt;</code></h4><p>長的引用</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">        Anim ipsum laborum tempor proident ea culpa.</span><br><span class="line">        &lt;br/&gt;</span><br><span class="line">        &lt;blockquote&gt;</span><br><span class="line">            Anim ipsum laborum tempor proident ea culpa.</span><br><span class="line">        &lt;/blockquote&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<table>
+    <tr>
+        <th>輸出</th>
+    </tr>
+    <tr>
+        <td>
+          <html>
+                <body>
+                    Anim ipsum laborum tempor proident ea culpa.
+                    <br/>
+                    <blockquote>
+                       Anim ipsum laborum tempor proident ea culpa.
+                    </blockquote>
+                </body>
+            </html>
+        </td>
+    </tr>
+</table>
+
 <h3 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h3><h4 id="lt-code-gt"><a href="#lt-code-gt" class="headerlink" title="&lt;code&gt;"></a><code>&lt;code&gt;</code></h4><p>表現出電腦程式碼的片段</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">    &lt;body&gt;</span><br><span class="line">       &lt;p&gt;The &lt;code&gt; push()&lt;/code&gt; Labore labore et cupidatat occaecat.&lt;/p&gt;</span><br><span class="line">    &lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
 <table>
@@ -450,7 +489,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#字體設定"><span class="nav-number">1.</span> <span class="nav-text">字體設定</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#粗體"><span class="nav-number">1.1.</span> <span class="nav-text">粗體</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-b-gt"><span class="nav-number">1.1.1.</span> <span class="nav-text">&lt;b&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#鈄線"><span class="nav-number">1.2.</span> <span class="nav-text">鈄線</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-i-gt"><span class="nav-number">1.2.1.</span> <span class="nav-text">&lt;i&gt;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-em-gt"><span class="nav-number">1.2.2.</span> <span class="nav-text">&lt;em&gt;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-dfn-gt"><span class="nav-number">1.2.3.</span> <span class="nav-text">&lt;dfn&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#刪除線"><span class="nav-number">1.3.</span> <span class="nav-text">刪除線</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-del-gt"><span class="nav-number">1.3.1.</span> <span class="nav-text">&lt;del&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#下劃線"><span class="nav-number">1.4.</span> <span class="nav-text">下劃線</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-ins-gt"><span class="nav-number">1.4.1.</span> <span class="nav-text">&lt;ins&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#展示縮寫"><span class="nav-number">1.5.</span> <span class="nav-text">展示縮寫</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-abbr-gt"><span class="nav-number">1.5.1.</span> <span class="nav-text">&lt;abbr&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#程式碼"><span class="nav-number">1.6.</span> <span class="nav-text">程式碼</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-code-gt"><span class="nav-number">1.6.1.</span> <span class="nav-text">&lt;code&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#鍵盤文本"><span class="nav-number">1.7.</span> <span class="nav-text">鍵盤文本</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-kbd-gt"><span class="nav-number">1.7.1.</span> <span class="nav-text">&lt;kbd&gt;</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#字體設定"><span class="nav-number">1.</span> <span class="nav-text">字體設定</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#粗體"><span class="nav-number">1.1.</span> <span class="nav-text">粗體</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-b-gt"><span class="nav-number">1.1.1.</span> <span class="nav-text">&lt;b&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#鈄線"><span class="nav-number">1.2.</span> <span class="nav-text">鈄線</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-i-gt"><span class="nav-number">1.2.1.</span> <span class="nav-text">&lt;i&gt;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-em-gt"><span class="nav-number">1.2.2.</span> <span class="nav-text">&lt;em&gt;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-dfn-gt"><span class="nav-number">1.2.3.</span> <span class="nav-text">&lt;dfn&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#刪除線"><span class="nav-number">1.3.</span> <span class="nav-text">刪除線</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-del-gt"><span class="nav-number">1.3.1.</span> <span class="nav-text">&lt;del&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#下劃線"><span class="nav-number">1.4.</span> <span class="nav-text">下劃線</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-ins-gt"><span class="nav-number">1.4.1.</span> <span class="nav-text">&lt;ins&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#展示縮寫"><span class="nav-number">1.5.</span> <span class="nav-text">展示縮寫</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-abbr-gt"><span class="nav-number">1.5.1.</span> <span class="nav-text">&lt;abbr&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用"><span class="nav-number">1.6.</span> <span class="nav-text">引用</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-q-gt"><span class="nav-number">1.6.1.</span> <span class="nav-text">&lt;q&gt;</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-blockquote-gt"><span class="nav-number">1.6.2.</span> <span class="nav-text">&lt;blockquote&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#程式碼"><span class="nav-number">1.7.</span> <span class="nav-text">程式碼</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-code-gt"><span class="nav-number">1.7.1.</span> <span class="nav-text">&lt;code&gt;</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#鍵盤文本"><span class="nav-number">1.8.</span> <span class="nav-text">鍵盤文本</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#lt-kbd-gt"><span class="nav-number">1.8.1.</span> <span class="nav-text">&lt;kbd&gt;</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
